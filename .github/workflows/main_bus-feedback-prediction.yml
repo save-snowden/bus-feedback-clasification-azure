@@ -46,7 +46,11 @@ jobs:
         run: pip install joblib
 
       - name: Install dependencies
-        run: pip install nltk        
+        run: pip install nltk  
+        
+      - name: Install dependencies
+        run: pip install scikit-learn
+        
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
