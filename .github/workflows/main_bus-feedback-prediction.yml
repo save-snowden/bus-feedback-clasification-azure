@@ -33,6 +33,12 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Install dependencies
+        run: pip install snowball
+
+      - name: Install dependencies
+        run: pip install stopwords
+
       - name: Install dependencies 
         run: pip install jsonify
 
