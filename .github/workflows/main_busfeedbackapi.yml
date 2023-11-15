@@ -28,9 +28,6 @@ jobs:
           source venv/bin/activate
 
       - name: Install dependencies
-        run: python -m nltk.downloader stopwords
-
-      - name: Install dependencies
         run: pip install flask
 
       - name: Install dependencies
